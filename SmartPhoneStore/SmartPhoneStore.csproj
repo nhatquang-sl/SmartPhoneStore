@@ -94,6 +94,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -111,11 +112,19 @@
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\3.jpg" />
+    <Content Include="Images\4.jpg" />
+    <Content Include="Images\5.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Home\Index.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.touchSwipe.js" />
+    <Content Include="Scripts\jquery.touchSwipe.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />

@@ -1,127 +1,18 @@
-﻿body {
-    background: #222;
-    color: #B4B4B4;
-    min-width: 320px;
-    position: relative;
+﻿.navbar {
+    margin-bottom: 0px;
 }
 
-.wrapper {
-    position: relative;
-    width: 100%;
+#swipeScreen {
     overflow: hidden;
 }
 
-.header {
-    padding: 0px;
-    position: relative;
+.swipeItem {
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
 }
 
-    .header .logo {
-        float: left;
-        margin: 23px 0 0 0;
-        display: block;
-        text-decoration: none !important;
+    .swipeItem:first-child {
+        opacity: 1;
+        z-index: 10;
     }
-
-        .header .logo img {
-            max-width: 100%;
-            height: auto;
-        }
-
-    .header .welcome-msg {
-        float: right;
-        clear: both;
-        font-size: 14px;
-        color: #00bcf2;
-        margin: 0 0 3px;
-    }
-
-    .header .right-head {
-        float: right;
-    }
-
-    .header .links {
-        float: right;
-        clear: both;
-        margin: 0 0 9px;
-        list-style: none;
-    }
-
-        .header .links li {
-            float: left;
-            padding: 0;
-            font-size: 14px;
-        }
-
-            .header .links li a {
-                display: inline-block;
-                color: #333333;
-                margin-left: 18px;
-            }
-
-        .header .links .top-car {
-            display: none;
-        }
-
-.block-cart-header {
-    float: right;
-    background: #767676;
-    padding: 16px 10px 13px 10px;
-    min-width: 170px;
-    position: relative;
-    margin: 0 0 0 30px;
-    text-align: center;
-    border-radius: 5px;
-    cursor: pointer;
-    font: normal normal normal 14px/1 FontAwesome;
-}
-
-    .block-cart-header:before {
-        content: "\f07a";
-        font-size: 37px;
-        color: #fff;
-        margin: 0 0 -2px;
-    }
-
-    .block-cart-header h3 {
-        font-size: 15px;
-        line-height: normal;
-        font-weight: 500;
-        color: #fee100;
-        margin: 0 0 1px 0;
-    }
-
-    .block-cart-header .empty {
-        font-size: 14px;
-        font-weight: normal;
-        color: #fff;
-    }
-
-        .block-cart-header .empty .price:after {
-            content: "\f107";
-            font-size: 12px;
-            color: #fff;
-            margin-left: 11px;
-        }
-
-.price {
-    white-space: nowrap !important;
-}
-
-.main-wrapper {
-    background-color: white;
-}
-
-.footer-container {
-    background: #363636;
-    padding: 28px 0 25px;
-    overflow: hidden;
-}
-
-
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
-}
